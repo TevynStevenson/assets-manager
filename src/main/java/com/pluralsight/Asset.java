@@ -1,6 +1,8 @@
 package com.pluralsight;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.time.LocalDate;
 
 public class Asset {
 
