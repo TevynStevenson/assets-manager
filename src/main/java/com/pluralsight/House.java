@@ -71,9 +71,7 @@ public class House extends Asset {
 
         value = value.multiply(BigDecimal.valueOf(squareFoot));
 
-        value = value.add(
-                BigDecimal.valueOf(lotSize).multiply(new BigDecimal("0.25"))
-        );
+        value = value.add(BigDecimal.valueOf(lotSize).multiply(new BigDecimal("0.25")));
 
         return value;
     }
